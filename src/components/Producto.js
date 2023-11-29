@@ -9,7 +9,7 @@ const style={
         borderRadius:"5px",
     },
     img:{
-        width:"100%"
+        width:"70%"
     }
 }
 

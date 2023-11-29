@@ -35,7 +35,7 @@ class DetallesCarro extends Component{
                 <ul style={styles.ul}>
                     {carro.map(x =>
                         <li style={styles.producto} key={x.name}>
-                            <img alt={x.name} src={x.img} width="50" height="30" />
+                            <img alt={x.name} src={x.img} width="70" height="60" />
                             {x.name} <span>{x.cantidad}</span>
                         </li>
                     )}

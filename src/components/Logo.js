@@ -2,15 +2,15 @@ import { Component } from "react"
 
 const styles={
     logo:{
-        fontWeight:"700",
-        fontsize:"2rem",
+        fontWeight:"900",
+        fontsize:"4rem",
     }
 }
 class Logo extends Component {
     render(){
         return(
             <div style={styles.logo}>
-             SHOP
+             Technology Shop
             </div>
         )
     }
